@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150A2B722765F4CD00D2314A /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150A2B712765F4CD00D2314A /* MainPage.swift */; };
+		150A2B752765FF8E00D2314A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150A2B742765FF8E00D2314A /* Home.swift */; };
 		1546C3A52755481F00F528E9 /* EcommAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546C3A42755481F00F528E9 /* EcommAppApp.swift */; };
 		1546C3A72755481F00F528E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546C3A62755481F00F528E9 /* ContentView.swift */; };
 		1546C3A92755482200F528E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1546C3A82755482200F528E9 /* Assets.xcassets */; };
@@ -14,6 +16,10 @@
 		1546C3B62755482200F528E9 /* EcommAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546C3B52755482200F528E9 /* EcommAppTests.swift */; };
 		1546C3C02755482200F528E9 /* EcommAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546C3BF2755482200F528E9 /* EcommAppUITests.swift */; };
 		1546C3C22755482200F528E9 /* EcommAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546C3C12755482200F528E9 /* EcommAppUITestsLaunchTests.swift */; };
+		1546C3D52755538000F528E9 /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546C3D42755538000F528E9 /* OnBoardingPage.swift */; };
+		15C57C2A275935D300BCE945 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C57C29275935D300BCE945 /* LoginPage.swift */; };
+		15C57C2D2759360200BCE945 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C57C2C2759360200BCE945 /* LoginViewModel.swift */; };
+		15E5162E276460B5009EC560 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E5162D276460B5009EC560 /* CustomCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		150A2B712765F4CD00D2314A /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		150A2B742765FF8E00D2314A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1546C3A12755481F00F528E9 /* EcommApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1546C3A42755481F00F528E9 /* EcommAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommAppApp.swift; sourceTree = "<group>"; };
 		1546C3A62755481F00F528E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,14 @@
 		1546C3BB2755482200F528E9 /* EcommAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1546C3BF2755482200F528E9 /* EcommAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommAppUITests.swift; sourceTree = "<group>"; };
 		1546C3C12755482200F528E9 /* EcommAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1546C3CF2755502500F528E9 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		1546C3D02755506100F528E9 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		1546C3D12755506B00F528E9 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		1546C3D22755518C00F528E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1546C3D42755538000F528E9 /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
+		15C57C29275935D300BCE945 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		15C57C2C2759360200BCE945 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		15E5162D276460B5009EC560 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150A2B732765FF7B00D2314A /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				150A2B742765FF8E00D2314A /* Home.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
 		1546C3982755481F00F528E9 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +118,10 @@
 		1546C3A32755481F00F528E9 /* EcommApp */ = {
 			isa = PBXGroup;
 			children = (
+				15C57C2B275935DA00BCE945 /* ViewModels */,
+				1546C3D32755535800F528E9 /* Views */,
+				1546C3D22755518C00F528E9 /* Info.plist */,
+				1546C3CE27554FB700F528E9 /* Fonts */,
 				1546C3A42755481F00F528E9 /* EcommAppApp.swift */,
 				1546C3A62755481F00F528E9 /* ContentView.swift */,
 				1546C3A82755482200F528E9 /* Assets.xcassets */,
@@ -125,6 +153,36 @@
 				1546C3C12755482200F528E9 /* EcommAppUITestsLaunchTests.swift */,
 			);
 			path = EcommAppUITests;
+			sourceTree = "<group>";
+		};
+		1546C3CE27554FB700F528E9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1546C3CF2755502500F528E9 /* Raleway-Bold.ttf */,
+				1546C3D02755506100F528E9 /* Raleway-Regular.ttf */,
+				1546C3D12755506B00F528E9 /* Raleway-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1546C3D32755535800F528E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				150A2B732765FF7B00D2314A /* TabView */,
+				1546C3D42755538000F528E9 /* OnBoardingPage.swift */,
+				15C57C29275935D300BCE945 /* LoginPage.swift */,
+				15E5162D276460B5009EC560 /* CustomCorners.swift */,
+				150A2B712765F4CD00D2314A /* MainPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15C57C2B275935DA00BCE945 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				15C57C2C2759360200BCE945 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +315,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C57C2A275935D300BCE945 /* LoginPage.swift in Sources */,
+				15E5162E276460B5009EC560 /* CustomCorners.swift in Sources */,
 				1546C3A72755481F00F528E9 /* ContentView.swift in Sources */,
+				1546C3D52755538000F528E9 /* OnBoardingPage.swift in Sources */,
+				15C57C2D2759360200BCE945 /* LoginViewModel.swift in Sources */,
+				150A2B722765F4CD00D2314A /* MainPage.swift in Sources */,
+				150A2B752765FF8E00D2314A /* Home.swift in Sources */,
 				1546C3A52755481F00F528E9 /* EcommAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +486,7 @@
 				DEVELOPMENT_TEAM = 8A5AV5U72V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcommApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +516,7 @@
 				DEVELOPMENT_TEAM = 8A5AV5U72V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcommApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
